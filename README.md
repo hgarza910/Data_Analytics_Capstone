@@ -24,9 +24,13 @@ These reasons can be observed in the following charts.
 * chart of employees that left based on hours
 ![](Images/employee_churn_based_on_hours.jpg)
 * chart of how long most employees are with company
+![](Images/employee_tenure.jpg)
 * chart of hour many hours employees work a month
+![](Images/hours_employees_work.jpg)
 * chart of the number of projects employees contribute to compared to the number of hours they work
+![](Images/hours_vs_number_of_projects.jpg)
 * chart of the lack of promotions
+![](Images/promotions.jpg)
   
 ## Model and Evaluation
 
