@@ -20,16 +20,27 @@ Based on the Random Forest model, satisfaction level, tenure, and the hours work
 The dataset was provided by Salifort Motors and comprised of 14,999 self-reported employee surveys. The features included, satisfaction levels, evaluations, number of project contributions, average monthly hours worked, tenure at the company, work accidents, promotions, departments, salaries and if the employee left. After through analysis of the data, it was found that a number of these features had the potential influence behind an employee leaving. Many of these reasons included, evaluation scores, employees being over and under worked, employees take on too many projects than could be handled, and lack of promotions.
 These reasons can be observed in the following charts.
 * bar chart of employees that have left
+
 ![](Images/Employees_that_left.jpg) 
+
 * chart of employees that left based on hours
+  
 ![](Images/employee_churn_based_on_hours.jpg)
+
 * chart of how long most employees are with company
+  
 ![](Images/employee_tenure.jpg)
+
 * chart of hour many hours employees work a month
+  
 ![](Images/hours_employees_work.jpg)
+
 * chart of the number of projects employees contribute to compared to the number of hours they work
+  
 ![](Images/hours_vs_number_of_projects.jpg)
+
 * chart of the lack of promotions
+* 
 ![](Images/promotions.jpg)
   
 ## Model and Evaluation
