@@ -17,32 +17,40 @@ Based on the Random Forest model, satisfaction level, tenure, and the hours work
 ## Business Understanding
 
 ## Data Understanding
-The dataset was provided by Salifort Motors and comprised of 14,999 self-reported employee surveys. The features included, satisfaction levels, evaluations, number of project contributions, average monthly hours worked, tenure at the company, work accidents, promotions, departments, salaries and if the employee left. After through analysis of the data, it was found that a number of these features had the potential influence behind an employee leaving. Many of these reasons included, evaluation scores, employees being over and under worked, employees take on too many projects than could be handled, and lack of promotions.
-These reasons can be observed in the following charts.
-* bar chart of employees that have left
+The dataset was provided by Salifort Motors and comprised of 14,999 self-reported employee surveys. The features included, satisfaction levels, evaluations, number of project contributions, average monthly hours worked, tenure at the company, work accidents, promotions, departments, salaries and if the employee left. After through analysis of the data, it was found that a number of these features had the potential influence behind an employee leaving. Many of these reasons included, evaluation scores, employees being over and under worked, employees take on too many projects than could be handled, and lack of promotions.These reasons can be observed in the following charts.
 
-![](Images/Employees_that_left.jpg) 
+<img align="center" width="50%" src="Images/Employees_that_left.jpg">
 
-* chart of employees that left based on hours
-  
-![](Images/employee_churn_based_on_hours.jpg)
 
-* chart of how long most employees are with company
+
+Taking into account the absence of duplicate data, we can see that the percentage of employees who are leaving is around 20% of employees. Looking at subsequnt data that is figured below this 20% of employees who are leaving on average are only staying with the company 3 years or less.
+
+<img align="center" width="75%" src="Images/employee_churn_based_on_hours.jpg">
+
+
+Breaking the data down into two categories of employees who work <= 40 hours a week and employees who work > than 40 hours a week we can see that the percentage of employees who are leaving the company are those who are working <= 40 hours a week  at around 26%.
+
   
 ![](Images/employee_tenure.jpg)
 
-* chart of hour many hours employees work a month
+A very interesting observation was noticed when analyzing the tenure of employees. There is a clear run up leading to year 3 and spike, following a sharp deacrease of employee count. This tells that a high number of employees are leaving less than 4 years at the company with the maximum being at year 3.
+
   
 ![](Images/hours_employees_work.jpg)
 
-* chart of the number of projects employees contribute to compared to the number of hours they work
+Observing the number of hours employees work at Salifort Motors it was concerning to see the distribution. The number of hours most employees work are more than the average 40 hour work week in a month, in fact about 70% of employees are working more than 40 hours a week on average.
   
 ![](Images/hours_vs_number_of_projects.jpg)
 
-* chart of the lack of promotions
-* 
+Related to the observation on how many hours employees work is the number of projects they contribute to. This chart shows a clear linear relationship between the number of projects contributed to with the number of hours worked associated with employees that have left the company. 
+
+
 ![](Images/promotions.jpg)
-  
+
+Another concerning observation was the number of promotions that employees recieved in the last five years which turned out to be less than one percent.
+
+All of these factors as well as many others contributed to the influence of employees quitting and their correlations were taken into account when developing the prediction model.
+
 ## Model and Evaluation
 
 ## Conclusion
