@@ -19,13 +19,12 @@ Based on the Random Forest model, satisfaction level, tenure, and the hours work
 ## Data Understanding
 The dataset was provided by Salifort Motors and comprised of 14,999 self-reported employee surveys. The features included, satisfaction levels, evaluations, number of project contributions, average monthly hours worked, tenure at the company, work accidents, promotions, departments, salaries and if the employee left. After through analysis of the data, it was found that a number of these features had the potential influence behind an employee leaving. Many of these reasons included, evaluation scores, employees being over and under worked, employees take on too many projects than could be handled, and lack of promotions.These reasons can be observed in the following charts.
 
-<img align="center" width="50%" src="Images/Employees_that_left.jpg">
-
+![](Images/Employees_that_left.jpg)
 
 
 Taking into account the absence of duplicate data, we can see that the percentage of employees who are leaving is around 20% of employees. Looking at subsequnt data that is figured below this 20% of employees who are leaving on average are only staying with the company 3 years or less.
 
-<img align="center" width="75%" src="Images/employee_churn_based_on_hours.jpg">
+![](Images/employee_churn_based_on_hours.jpg)
 
 
 Breaking the data down into two categories of employees who work <= 40 hours a week and employees who work > than 40 hours a week we can see that the percentage of employees who are leaving the company are those who are working <= 40 hours a week  at around 26%.
@@ -52,5 +51,5 @@ Another concerning observation was the number of promotions that employees recie
 All of these factors as well as many others contributed to the influence of employees quitting and their correlations were taken into account when developing the prediction model.
 
 ## Model and Evaluation
-
+Testing and evaluating two methods one being Logistic Regression and the other being a Random Forest, the Random forest performed the best. The Random forest consisted of 100 decision trees
 ## Conclusion
