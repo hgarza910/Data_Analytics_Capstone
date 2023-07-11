@@ -61,6 +61,7 @@ Testing and evaluating two methods one being Logistic Regression and the other b
 This model can help Salifort Motors in determining whether an employee will leave the company or not based strongly on a few factors. These few factors have caused concern for the production model due to data leakage. Since the model's most important feature 'satisfaction_level' may not be immediately available in deployment, it may be necessary to create a secondary system that can track employee satisfaction levels. Aside from this solution, the model may need to be retrained taking into consideration data that can only be used in deployment.
 
 The model and feature importances extracted combined with the in-depth data exploration conducted, confirms that employees are overworked with no incentives of promotion.
+
 **Recommendations to stakeholders:**
 * Increase Promotions.
 * Limit or reward employees for hours worked more than 40 hours a week.
