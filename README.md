@@ -65,7 +65,7 @@ The model and feature importances extracted combined with the in-depth data expl
 **Recommendations to stakeholders:**
 * Increase Promotions.
 * Limit or reward employees for hours worked more than 40 hours a week.
-* Cap the number of projects and employee can take on.
+* Cap the number of projects an employee can take on.
 * High evaluation scores should not be limited to employees who work more hours.
 
  
