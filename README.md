@@ -51,5 +51,11 @@ Another concerning observation was the number of promotions that employees recie
 All of these factors as well as many others contributed to the influence of employees quitting and their correlations were taken into account when developing the prediction model.
 
 ## Model and Evaluation
-Testing and evaluating two methods one being Logistic Regression and the other being a Random Forest, the Random forest performed the best. The Random forest consisted of 100 decision trees
+Testing and evaluating two methods one being Logistic Regression and the other being a Random Forest, the Random forest performed the best. The Random forest consisted of 100 decision trees to determine feature importance in employees who would leave the company. The plot below shows the top 3 most important factors as satisfaction level, years at company, and avg monthly hours. The model performed with a 99% percent accuracy and 98% precision.
+
+![](Images/rf_feature_importance.jpg)
+
+
 ## Conclusion
+
+
