@@ -14,8 +14,6 @@ Here is a breakdown of how the two best tuned models performed:
 | F1    	  | 88%             	  |   99%     	  |
 | AUC   	  | 87%             	  |   99%     	  |
 
-Based on the Random Forest model, satisfaction level, tenure, and the hours worked were the most influential features when determining if an employee was going to quit.
-
 ## Business Understanding
 
 ## Data Understanding
