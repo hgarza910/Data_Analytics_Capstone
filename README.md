@@ -1,9 +1,7 @@
 # Predicting Employee Churn For Salifort Motors
 
 ## Overview
-Salifort Motors currently has a high turnover rate among employees and is concerned because they make a big investment in recruiting, training and upskilling its employees.
-Salifort Motors is seeking a method to use employee data to gauge what makes them leave the company and their reasons behind their departure. The method used to solve their issue is a predictive model that can classify whether or not an employee will leave. For this task, I chose to build and evaluate two different models, a Logistic Regression Classifier and a Random Forest Classifier. I then compared the two based on their performance and transparency, to allow Salifort Motors to choose the best model for their needs. While the Logistic model exemplifies the most transparent model, the Random Forest Classifier performed the best. 
-
+The goal of this project was to help Salifort Motors by creating a predictive model that can help them identify if an employee is going to leave the company. For this task, I chose to build and evaluate two different models, a Logistic Regression Classifier and a Random Forest Classifier. I then compared the two based on their performance and transparency, allowing Salifort Motors to choose the best model for their needs. While the Logistic model exemplifies the most transparent model, the Random Forest Classifier performed the best. 
 Here is a breakdown of how the two best tuned models performed:
 
 | Metrics   | Logistic Regression | Random Forest |
@@ -15,6 +13,9 @@ Here is a breakdown of how the two best tuned models performed:
 | AUC   	  | 87%             	  |   99%     	  |
 
 ## Business Understanding
+Currently, there is a high rate of turnover among Salifort employees. (Note: In this context, turnover data includes both employees who choose to quit their job and employees who are let go). Salifort’s senior leadership team is concerned about how many employees are leaving the company. Salifort strives to create a corporate culture that supports employee success and professional development. Further, the high turnover rate is costly in the financial sense. Salifort makes a big investment in recruiting, training, and upskilling its employees. 
+
+If Salifort could predict whether an employee will leave the company, and discover the reasons behind their departure, they could better understand the problem and develop a solution.
 
 ## Data Understanding
 The dataset was provided by Salifort Motors and consisted of 14,999 self-reported employee surveys. The features included, satisfaction levels, evaluations, number of project contributions, average monthly hours worked, tenure at the company, work accidents, promotions, departments, salaries and if the employee left. After thorough analysis of the data, it was found that a number of these features had the potential influence behind an employee leaving. Many of these reasons included, evaluation scores, employees being over and under worked, employees taking on too many projects than could be handled, and lack of promotions.These reasons can be observed in the following charts.
