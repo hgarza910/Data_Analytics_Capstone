@@ -18,7 +18,7 @@ Currently, there is a high rate of turnover among Salifort employees. (Note: In 
 If Salifort could predict whether an employee will leave the company, and discover the reasons behind their departure, they could better understand the problem and develop a solution.
 
 ## Data Understanding
-The dataset was provided by Salifort Motors and consisted of 14,999 self-reported employee surveys. The features included, satisfaction levels, evaluations, number of project contributions, average monthly hours worked, tenure at the company, work accidents, promotions, departments, salaries and if the employee left. After thorough analysis of the data, it was found that a number of these features had the potential influence behind an employee leaving. Many of these reasons included, evaluation scores, employees being over and under worked, employees taking on too many projects than could be handled, and lack of promotions.These reasons can be observed in the following charts.
+The dataset was provided by Salifort Motors and consisted of 14,999 self-reported employee surveys. The features included, satisfaction levels, evaluations, number of project contributions, average monthly hours worked, tenure at the company, work accidents, promotions, departments, salaries and if the employee left. After thorough analysis of the data, it was found that a number of these features had the potential influence behind an employee leaving. Many of these reasons included, evaluation scores, employees being over and under worked, employees taking on too many projects than could be handled, and lack of promotions. These reasons can be observed in the following charts.
 
 ![](Images/Employees_that_left.jpg)
 
